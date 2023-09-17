@@ -6,7 +6,10 @@
     flex-direction: column;
     background-color: #232323;
     border-radius: 10px;
-    border: 1px solid red;
+}
+
+.card > input{
+    border-radius: 5px;
 }
 
 .card__title{
@@ -19,6 +22,9 @@
 }
 
 .card__body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #616161;
     width: 90%;
     margin-left: auto;
@@ -40,4 +46,5 @@
     border-radius: 5px;
     padding: 5px;
     margin-right: 4px;
+    margin-bottom: 5px;
 }
